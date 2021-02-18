@@ -10,7 +10,7 @@ namespace IO_HW_Task1
     {
         static bool IsFib(List<int> numbers)
         {
-            bool res = false; //4 5 9 14 23
+            bool res = false;
             for (int i = 0; i < numbers.Count - 2; i++)
             {
                 if (numbers[i] + numbers[i + 1] == numbers[i + 2])
